@@ -88,11 +88,61 @@
             font-size: 0.9em;
         }
         @media (max-width: 768px) {
-            .feature-grid {
-                grid-template-columns: 1fr;
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
             }
             h1 {
                 font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+                margin-top: 30px;
+            }
+            h3 {
+                font-size: 1.2em;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            .feature-card, .role-card {
+                padding: 15px;
+            }
+            .command-list {
+                padding: 10px;
+            }
+            .command {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+            .warning, .info {
+                padding: 12px;
+                font-size: 0.9em;
+            }
+            ol, ul {
+                padding-left: 20px;
+            }
+            li {
+                margin-bottom: 8px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            .container {
+                padding: 15px;
+                border-radius: 5px;
+            }
+            .feature-card, .role-card {
+                padding: 12px;
+            }
+            .command {
+                padding: 8px;
+                font-size: 0.85em;
             }
         }
     </style>
@@ -194,5 +244,3 @@
     </div>
 </body>
 </html>
-
-
